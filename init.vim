@@ -13,7 +13,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set number
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 set guicursor=n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor
 
 autocmd BufWritePre * %s/\s\+$//e
